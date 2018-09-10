@@ -1,0 +1,83 @@
+img {
+    max-width: 100%;
+}
+
+#name {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    font-size: 35px;
+}
+
+#self-portrait {
+    position: absolute;
+    bottom: -130px;
+    height: 250px;
+    border-radius: 120px;
+    border: solid 8px white;
+}
+
+#hero-image {
+    margin-top: 15px;
+}
+
+.container {
+    width: 100%
+}
+
+#job {
+    font-size: 0.65em;
+}
+
+.icons {
+    height: 45px;
+    margin: 20px 0 40px 0;
+}
+
+.dark-bg {
+    background-color: whitesmoke;
+}
+
+.subheading {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.portfolio-cards {
+/*
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+*/
+    padding: 0 0 250px 20px;
+    text-align: center;
+}
+
+.fa-icons {
+    font-size: 12em;
+    display: block;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+.language-list {
+    width: 150px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    display: block;
+    
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+}
