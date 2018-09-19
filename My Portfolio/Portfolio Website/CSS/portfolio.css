@@ -81,3 +81,9 @@ form {
     width: 30%;
     margin: 0 auto;
 }
+
+.other-skills {
+    margin: -20px auto 75px auto;
+    text-align: center;
+    font-size: 1.5em;
+}

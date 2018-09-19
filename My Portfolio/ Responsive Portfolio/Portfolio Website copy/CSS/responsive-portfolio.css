@@ -1,0 +1,145 @@
+body {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#name {
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    opacity: 0.9;
+}
+
+#self-portrait {
+    position: absolute;
+    bottom: -130px;
+    height: 250px;
+    border-radius: 120px;
+    border: solid 8px white;
+}
+
+#hero-image {
+    margin-top: 15px;
+}
+
+.container {
+    width: 100%
+}
+
+#job {
+    font-size: 0.65em;
+}
+
+.icons {
+    height: 45px;
+    margin: 20px 0 40px 0;
+}
+
+.dark-bg {
+    background-color: whitesmoke;
+}
+
+.subheading {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.portfolio-cards {
+    padding: 0 0 250px 20px;
+    text-align: center;
+}
+
+.fa-icons {
+    font-size: 12em;
+    display: block;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+.language-list {
+    width: 150px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    display: block;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:420px) {
+    #hero-image {
+        display: none;
+    }
+    #self-portrait {
+        display: none;
+    }
+    .about, form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 768px) {
+    #hero-image {
+        display: none;
+    }
+    #self-portrait {
+        height:auto;
+        width: 24%;
+        right: 30px;
+        top: 90px;
+    }
+    #name {
+        display: none;
+    }
+    form {
+        width: 70%;
+        margin: auto;
+    }
+    .about {
+        width: 55%;
+        margin: 0 0 0 13%; 
+    }
+    .icons {
+        height: 65px;
+    }
+    .icon-container {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) { 
+    #name {
+        bottom: 100px;
+        right: 150px;
+        
+    }
+    #self-portrait {
+        height: 230px;
+        width: 22%;
+        bottom:10px;
+    }
+    .about, .icon-container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
