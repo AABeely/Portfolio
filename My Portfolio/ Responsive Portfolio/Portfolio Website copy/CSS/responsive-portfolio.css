@@ -128,18 +128,30 @@ form {
 
 @media (min-width: 769px) and (max-width: 991px) { 
     #name {
-        bottom: 100px;
-        right: 150px;
-        
+        display: inline;
+        bottom: 10px;
+        width: 80%;
+        margin-left: 10%;
     }
     #self-portrait {
+        display: none;
+/*
         height: 230px;
         width: 22%;
         bottom:10px;
+*/
     }
     .about, .icon-container {
         width: 80%;
         margin: auto;
+    }
+}
+
+@media (min-width:992px) {
+    #name {
+        display: inline;
+        color: white;
+        bottom: 10px;
     }
 }
 
