@@ -83,7 +83,7 @@ form {
 
 /* MEDIA QUERIES */
 
-@media (max-width:420px) {
+@media (max-width:580px) {
     #hero-image {
         display: none;
     }
@@ -94,9 +94,17 @@ form {
         width: 90%;
         margin: auto;
     }
+        .icons {
+            height: 50px;
+            padding: 0 5px
+    }
+    .icon-container {
+        width: 275px;
+        margin: auto;
+    }
 }
 
-@media (min-width: 421px) and (max-width: 768px) {
+@media (min-width: 581px) and (max-width: 768px) {
     #hero-image {
         display: none;
     }
