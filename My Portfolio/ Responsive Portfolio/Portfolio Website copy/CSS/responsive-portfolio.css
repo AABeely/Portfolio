@@ -45,7 +45,8 @@ img {
 .subheading {
     text-align: center;
     color: black;
-    margin-bottom: 50px;
+    padding: 20px 0 50px 0;
+    margin: 0;
 }
 
 .portfolio-cards {
