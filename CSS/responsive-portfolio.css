@@ -81,6 +81,30 @@ form {
     margin: 0 auto;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.box-decoration {
+    width: 80%;
+    margin: 35px auto 75px auto;
+    border-radius: 15px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 20px #C2C2C2;
+    background-color: whitesmoke;
+/*    color: white*/
+}
+
+.box-decoration ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+.coming-soon {
+    margin: 100px;
+}
 
 /* MEDIA QUERIES */
 
