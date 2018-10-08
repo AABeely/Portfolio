@@ -17,7 +17,7 @@ img {
 #self-portrait {
     position: absolute;
     bottom: -130px;
-    height: 250px;
+    height: 220px;
     border-radius: 120px;
     border: solid 8px white;
 }
@@ -209,6 +209,7 @@ hr {
     }
     #self-portrait {
         display: none;
+        
     }
     .about, .icon-container {
         width: 80%;
@@ -233,5 +234,17 @@ hr {
     }
     hr {
         display: none;
+    }
+    #self-portrait {
+        height: 250px;
+    }
+}
+
+@media (min-width:1250px) {
+    #self-portrait {
+        height: 280px;
+    }
+    form {
+        width: 25%;
     }
 }
