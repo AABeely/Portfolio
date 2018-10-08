@@ -71,13 +71,14 @@ ul {
 
 input, textarea {
     padding: 5px;
-    margin: 5px;
     width: 100%;
     display: block;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 18px;
 }
 
 form {
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -92,7 +93,6 @@ form {
     border: solid black 2px;
     box-shadow: 10px 10px 20px #C2C2C2;
     background-color: whitesmoke;
-/*    color: white*/
 }
 
 .box-decoration ul {
@@ -109,6 +109,12 @@ li {
 #submit-button {
     width: 30%;
     margin: 30px auto 30px auto;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px black;
+}
+
+.border-right {
+    border-right: 5px dashed black;
 }
 
 /* MEDIA QUERIES */
@@ -124,9 +130,9 @@ li {
         width: 90%;
         margin: auto;
     }
-        .icons {
-            height: 50px;
-            padding: 0 5px
+    .icons {
+        height: 50px;
+        padding: 0 5px;
     }
     .icon-container {
         width: 275px;
@@ -173,11 +179,6 @@ li {
     }
     #self-portrait {
         display: none;
-/*
-        height: 230px;
-        width: 22%;
-        bottom:10px;
-*/
     }
     .about, .icon-container {
         width: 80%;
@@ -191,5 +192,7 @@ li {
         color: white;
         bottom: 10px;
     }
+    form {
+        width: 30%;
+    }
 }
-
